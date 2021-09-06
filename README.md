@@ -5,7 +5,7 @@
 <h3 align="center">BRCars Dataset</h3>
 
 <p align="center">
-  BRCars is a dataset for fine-grained classification and other computer vision tasks. The dataset contains a total of 311,595 images belonging to 53,747 car advertisements of 427 car models. The images were collected from <a target="_blank" href="http://webmotors.com.br">webmotors.com.br</a>.
+  BRCars is a dataset for fine-grained classification and other computer vision tasks. The dataset contains a total of 300,325 images belonging to 52K car advertisements of 427 car models. The images were collected from <a target="_blank" href="http://webmotors.com.br">webmotors.com.br</a>.
 </p>
 
 ## General information
