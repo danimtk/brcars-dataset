@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/danimtk/brcars/blob/main/resources/brcars-cover.png" alt="BRCars logo" width="100%">
+    <img src="https://github.com/danimtk/brcars-dataset/blob/main/resources/brcars-cover.png" alt="BRCars logo" width="100%">
 </p>
 
 <h3 align="center">BRCars Dataset</h3>
@@ -51,14 +51,14 @@ brcars427/
 Although the images of BRCars-196 and BRCars-427 are grouped so that the level of granularity is given by the model, the images can be grouped into other granularity levels. The following figure shows the hierarchical tree with the possible levels of possible granularities.
 
 <p align="center">
-    <img src="https://github.com/danimtk/brcars/blob/main/resources/granularities_hierarchical_tree.png" alt="hierarchical tree of granularity" width="420">
+    <img src="https://github.com/danimtk/brcars-dataset/blob/main/resources/granularities_hierarchical_tree.png" alt="hierarchical tree of granularity" width="420">
 </p>
 
 The images can be grouped by make, model, year and by instance. The granularity per instance allows you to group images belonging to a specific car. This latter granularity is possible due to the nature of the data source, which groups different images from a single real instance of the car.
 
 ### brcars-196.csv and brcars-427.csv files
 
-The files brcars-196.csv and brcars-427.csv have the same structure. They have x attributes, that are:
+The files brcars-196.csv and brcars-427.csv have the same structure. They have nine attributes, that are:
 
 **id** *- is a unique identifier of the car instance;*
 
