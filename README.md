@@ -56,11 +56,11 @@ Although the images of BRCars-196 and BRCars-427 are grouped so that the level o
 
 The images can be grouped by make, model, year and by instance. The granularity per instance allows you to group images belonging to a specific car. This latter granularity is possible due to the nature of the data source, which groups different images from a single real instance of the car.
 
-### brcars-196.csv and brcars-427.csv files
+### brcars196.csv and brcars427.csv files
 
-The files brcars-196.csv and brcars-427.csv have the same structure. They have nine attributes, that are:
+The files brcars196.csv and brcars427.csv have the same structure (It can be downloaded from this <a target="_blank" href="https://b.link/brcars">link<a>). They have nine attributes, that are:
 
-**id** *- is a unique identifier of the car instance;*
+**id** *- is a unique identifier of each car instance;*
 
 **model_id** *- is the identifier of the car model;*
 
@@ -68,15 +68,15 @@ The files brcars-196.csv and brcars-427.csv have the same structure. They have n
 
 **make_id** *- the make identifier of the car;*
 
-**make_label** *- the make textual label of the car;*
+**make_label** *- the textual label of the car;*
 
 **year** *- the year of the car fabrication;*
 
-**persp** *- the perspective of the car contained in the image (c for cockpit and e  for external);*
+**persp** *- the perspective of the car contained in the image (**c** for cockpit and **e** for external);*
 
 **uri** *- uniform resource identifier to image file;*
 
-**split** *- the split of data (0 for train split, 1 for validation split, and 2 for the test).*
+**split** *- the split of data (**0** for train split, **1** for validation split, and **2** for the test).*
 
 
 ### Citation
