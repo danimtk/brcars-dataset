@@ -18,33 +18,33 @@ BRCars-427: this set has images of the 196 classes of BRCars-196, plus 231 class
 
 ## Download
 
-The image files are splited in tar.gz files. It can be downloaded from this <a target="_blank" href="https://b.link/brcars">link<a>.
+The image files are zipped. It can be downloaded from this <a target="_blank" href="https://b.link/brcars">link<a>.
     
-After downloading and extracting the tar.gz file, the folder structure will look like this:
+After downloading and extracting the .zip file, the folder structure will look like this:
 
 ```text
 brcars427/
         ├── 0/
-        │   ├── 643/
+        │   ├── 1/
         │   │   ├── file1.jpg
         │   │   ├── ...
         │   │   └── fileN.jpg
         │   ├── .../
-        │   └── 3770/
+        │   └── 427/
         ├── 1/
-        │   ├── 643/
+        │   ├── 1/
         │   │   ├── file1.jpg
         │   │   ├── ...
         │   │   └── fileN.jpg
         │   ├── .../
-        │   └── 3770/
+        │   └── 427/
         └── 2/
-            ├── 643/
+            ├── 1/
             │   ├── file1.jpg
             │   ├── ...
             │   └── fileN.jpg
             ├── .../
-            └── 3770/
+            └── 427/
 ```
 ### Granularity hierarchy
 
@@ -77,3 +77,17 @@ The files brcars-196.csv and brcars-427.csv have the same structure. They have x
 **uri** *- uniform resource identifier to image file;*
 
 **split** *- the split of data (0 for train split, 1 for validation split, and 2 for the test).*
+
+
+### Citation
+If you use BRCars in your research we would appreciate a citation to the paper:
+```
+@inproceedings{kuhn2021brcars,
+  title={BRCars: a Dataset for Fine-Grained Classification of Car Images},
+  author={Kuhn, Daniel M and Moreira, Viviane P},
+  booktitle={2021 34nd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)},
+  year={2021},
+  organization={IEEE}
+}
+```
+
